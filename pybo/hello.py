@@ -1,2 +1,2 @@
-print("qwerqwerqwer[]]]][][][")
-print("ytnrtyhnyhnythntyhn")
+print("qwer")
+print("qwer")
