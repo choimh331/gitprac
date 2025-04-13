@@ -4,6 +4,8 @@ from django.utils import timezone
 from .forms import QuestionForm, AnswerForm
 from django.http import HttpResponseNotAllowed
 from django.core.paginator import Paginator
+from django.shortcuts import render
+from .models import Author, Book
 
 # Create your views here.
 
@@ -48,3 +50,5 @@ def question_create(request):
         form = QuestionForm()
     context = {'form': form}
     return render(request, 'pybo/question_form.html', context)
+
+
